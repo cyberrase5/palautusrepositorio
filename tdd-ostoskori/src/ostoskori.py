@@ -47,6 +47,9 @@ class Ostoskori:
         for item in self.tuotteet:
             if item.tuote._nimi == poistettava._nimi:
                 item.muuta_lukumaaraa(-1)
+                if item.lukumaara() < 1:
+                    self.tuotteet.remove(item)
+                    return
                 return
 
     def tyhjenna(self):
