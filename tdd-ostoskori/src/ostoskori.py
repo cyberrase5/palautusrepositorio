@@ -14,7 +14,7 @@ class Ostoskori:
 
         count = 0
         for item in self.tuotteet:
-            count += item.lukumaara
+            count += item.lukumaara()
 
         return count
 
@@ -23,13 +23,13 @@ class Ostoskori:
 
         count = 0
         for item in self.tuotteet:
-            count += item.hinta
+            count += item.hinta()
 
         return count
 
     def lisaa_tuote(self, lisattava: Tuote):
         # lisää tuotteen
-        pass
+        self.tuotteet.append(lisattava)
 
     def poista_tuote(self, poistettava: Tuote):
         # poistaa tuotteen
