@@ -27,9 +27,14 @@ class Ostoskori:
 
         return count
 
-    def lisaa_tuote(self, lisattava: Tuote):
+    def lisaa_tuotea(self, lisattava: Ostos):
         # lisää tuotteen
         self.tuotteet.append(lisattava)
+
+    def lisaa_tuote(self, lisattava: Tuote):
+        # lisää tuotteen
+        self.tuotteet.append(Ostos(lisattava))
+
 
     def poista_tuote(self, poistettava: Tuote):
         # poistaa tuotteen
