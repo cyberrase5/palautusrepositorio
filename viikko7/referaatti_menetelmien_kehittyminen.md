@@ -1,0 +1,11 @@
+Käsitteistön määrittelyn jälkeen käsitellään ohjelmistokehityksen alkuaikoja 1950-1970-luvuilla. Tekstissä käsitellään ns. "software crisisiä," eli (ainakin) 1960-luvulla havaittua ongelmaa, että ei ole olemassa tehokasta tapaa kehittää ohjelmistoja. Tietokoneiden teknologinen kehitys johti tilanteeseen, jossa haluttiin luoda yhä monimutkaisempia ohjelmistoja ilman kunnon käytänteitä, ja tämä oli ongelma nuorelle alalle.
+
+1970-luvulla Royce esitteli artikkelissaan ns. vesiputousmallin ja kritiikkiä sitä kohtaan, sekä esitteli parannusehdotuksen tähän malliin, jossa aikaisempiin vaiheisiin (vaatimusmäärittely yms.) voidaan palata, sillä oltiin huomattu, että ohjelmistokehitys erosi suuresti muista insinöörialoista, joissa ei ollut muuta tapaa rakentaa/valmistaa asoita kuin lineaarisesti. 
+
+Tämän jälkeen kandissa siirrytään enemmän nykyaikaan, eli iteratiivisiin menetelmiin. Suomalainen esittelee kaksi menetelmää, joita ei käsitelty kurssilla:
+Spiraalimalli on sekoitus iteratiivisia ja lineaarisia menetelmiä. Ohjelmistosta rakennetaan prototyyppejä eri "iteraatioissa" ja analysoidaan ohjelmistoon liittyviä riskejä niiden aikana, joka taas vaikuttaa kehitykseen. Tämä malli muistuttaa monissa asioissa ketteriä menetelmiä, mutta esimerkiksi jatkuva toimittaminen ei ole spiraalimallin mukaista.
+Rational Unified Process (RUP) on 1990-luvulla kehitetty ketteriä menetelmiä muistuttava iteratiivinen malli. Tarkka dokumentaatio (eli eroaa Agilesta) ja komponenttiarkkitehtuuri ovat RUPille tunnusomaisia. Huonoina puolina voidaan mainita, ettei RUP ota kantaa esimerkiksi ylläpitoon eikä se sovellu todella suuriin projekteihin.
+
+Tässä välissä käsitellään myös itse ketteriä menetelmiä, mutta niitä on käsitelty kurssilla tarpeeksi.
+
+Lopuksi tässä vuonna 2014 julkaistussa kandissa käsitellään ohjelmistotuotannon tulevaisuuutta. Suomalainen pohtii, että tulevaisuuden ongelmat tulevat muuttamaan kehitysmenetelmiä, mutta näin kahdeksan vuotta myöhemmin, mitään kovin suuria muutoksia ei vielä ole tapahtunut. Ketterät menetelmät vaikuttavat sis sopeutuneen varsin hyvin nykyjan haasteisiin.
